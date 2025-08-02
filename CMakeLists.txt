@@ -4,6 +4,7 @@ cmake_minimum_required(VERSION 3.11)
 project(cimgui VERSION 0.0.1)
 
 set(CMAKE_CXX_STANDARD 11)
+cmake_policy(SET CMP0177 NEW)
 
 file(GLOB CIMGUI_SOURCE_FILES
         # imgui
